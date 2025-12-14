@@ -7,4 +7,28 @@ body {
   font-family: "Poppins", sans-serif;
 }
 :root {
+  --black: #000;
+  --white: #fff;
+  --text-primary-color: #088178;
+  --nav-text-color: #1a1a1a;
+  --nav-bg: #e3e6f3;
+  /* nav color  */
+  --hero-sub-heading-color: #f8f8f8;
+  --hero-heading-color: #222;
+  --hero-content-color: #465b52;
+  /* hero color  */
+  --f-box-border-color: #cce7d0;
+  --f-box--1-bg: #fddde4;
+  --f-box--2-bg: #cdebbc;
+  --f-box--3-bg: #d1e8f2;
+  --f-box--4-bg: #cdd4f8;
+  --f-box--5-bg: #f6dbf6;
+  --f-box--6-bg: #fff2e5;
+  /* feature color  */
+  --off-con-text-color: #eaebf0;
+  /* off container color  */
+  --shopping-cart-text-color: #f8f8f8;
+  /* shopping-card-color  */
+  --footer-text-color: #6d6d6d;
+  /* footer color  */
 }
