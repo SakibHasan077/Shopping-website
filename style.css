@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -31,4 +35,86 @@ body {
   /* shopping-card-color  */
   --footer-text-color: #6d6d6d;
   /* footer color  */
+}
+header {
+  /* nav  */
+  nav {
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bg);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100000000;
+  }
+  /* logo  */
+  nav .logo {
+    cursor: pointer;
+  }
+  /* list  */
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  nav ul li {
+    padding: 0 2rem;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: var(--text-primary-color);
+  }
+  nav ul li::before {
+    content: "";
+    border-bottom: 2px solid var(--text-primary-color);
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    cursor: pointer;
+  }
+  nav ul li:hover::before {
+    width: 70%;
+  }
+  nav ul li:nth-of-type(1)::before {
+    width: 54%;
+  }
+  nav ul li:nth-of-type(2):hover::before {
+    width: 52%;
+  }
+  nav ul li:nth-of-type(3):hover::before {
+    width: 52%;
+  }
+  nav ul li:nth-of-type(4):hover::before {
+    width: 56%;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: inline-block;
+    color: var(--nav-text-color);
+  }
+  nav ul li:first-of-type a {
+    color: var(--text-primary-color);
+  }
+  /* icon menu  */
+  .icon-menu {
+    margin-right: 5rem;
+    cursor: pointer;
+    display: none;
+    .i-box {
+      height: 2px;
+      width: 2.4rem;
+      background-color: var(--black);
+      margin-top: 0.5rem;
+    }
+  }
+  /* nav end */
 }
