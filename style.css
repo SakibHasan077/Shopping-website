@@ -163,3 +163,57 @@ header {
   }
   /* hero end  */
 }
+main {
+  /* features */
+  .features {
+    margin: 0 15rem;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .features .f-box {
+    margin: 1.5rem 0;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--f-box-border-color);
+    border-radius: 0.5rem;
+    flex-basis: 16.67%;
+    cursor: pointer;
+  }
+  .features .f-box:hover {
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+  }
+  .features .f-box img {
+    margin-bottom: 1rem;
+  }
+  .features .f-box p {
+    font-size: 1.4rem;
+    width: fit-content;
+    padding: 0.9rem 0.8rem 0.6rem;
+    font-weight: 700;
+    color: var(--text-primary-color);
+    margin: 0 auto;
+    border-radius: 0.4rem;
+  }
+  .features .f-box--1 p {
+    background-color: var(--f-box--1-bg);
+  }
+  .features .f-box--2 p {
+    background-color: var(--f-box--2-bg);
+  }
+  .features .f-box--3 p {
+    background-color: var(--f-box--3-bg);
+  }
+  .features .f-box--4 p {
+    background-color: var(--f-box--4-bg);
+  }
+  .features .f-box--5 p {
+    background-color: var(--f-box--5-bg);
+  }
+  .features .f-box--6 p {
+    background-color: var(--f-box--6-bg);
+  }
+  /* features end  */
+}
