@@ -216,4 +216,81 @@ main {
     background-color: var(--f-box--6-bg);
   }
   /* features end  */
+  /* featured-product and new arrival */
+  .featured-product,
+  .new-arrival {
+    h2 {
+      font-size: 5rem;
+      line-height: 6.4rem;
+      text-align: center;
+      letter-spacing: 0.2rem;
+      color: var(--hero-heading-color);
+    }
+    .featured-product-content,
+    .new-arrival-content {
+      color: var(--hero-content-color);
+      font-size: 1.6rem;
+      margin: 1.5rem 0 2rem;
+      text-align: center;
+    }
+    /* product-container  */
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 0 6rem;
+      gap: 3rem;
+    }
+    .product-container .p-box {
+      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+      border-radius: 2.5rem;
+      padding: 1.3rem;
+      border: 2px solid #ebebeb;
+    }
+    .product-container .p-box:hover {
+      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    }
+    .product-container .p-box img {
+      width: 100%;
+      border-radius: 2.5rem;
+    }
+    .product-container .brand {
+      color: #969696;
+      font-size: 1.6rem;
+      line-height: 2;
+    }
+    .product-container .product-heading {
+      font-size: 1.8rem;
+      color: #292929;
+      font-weight: 700;
+    }
+    .price-cart {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      margin-top: 1rem;
+      align-items: center;
+    }
+    .price-cart .shoping-card {
+      width: 3rem;
+      height: 3rem;
+      background-color: #c7e9e75e;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .price-cart .shoping-card img {
+      width: 2.2rem;
+      height: 100%;
+    }
+    .product-container .price {
+      color: var(--text-primary-color);
+      font-size: 1.8rem;
+      padding: 0.4rem 0;
+      line-height: 2;
+    }
+  }
+  /* featured-product and new arrival end */
 }
