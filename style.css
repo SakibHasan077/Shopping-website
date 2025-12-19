@@ -293,4 +293,38 @@ main {
     }
   }
   /* featured-product and new arrival end */
+  /* off section  */
+  .off-container {
+    margin: 4rem 0;
+    background-image: url("./images/banner/b2.jpg");
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--off-con-text-color);
+  }
+  .off-container .title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .off-container h2 {
+    font-size: 4.6rem;
+    padding: 2rem 0;
+  }
+  .off-container .off-btn {
+    font-size: 1.4rem;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 1.5rem 3rem;
+    border: 0;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+  }
+  .off-container .off-btn:hover {
+    background-color: var(--text-primary-color);
+  }
+  /* off section end */
 }
