@@ -440,4 +440,73 @@ main {
     background-image: url("./images/banner/b18.jpg");
   }
   /* shopping-cart end */
+  /* sign-up  */
+  .sign-up {
+    height: 16rem;
+    width: 100%;
+    background-color: #041e42;
+    background-image: url("./images/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 18rem;
+  }
+  .sign-up--container {
+    padding: 0 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .su-box--1 h2 {
+    font-size: 3rem;
+    padding: 0 0 1.5rem;
+    color: var(--white);
+  }
+  .su-box--1 p {
+    color: #979797;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  .su-box--1 p span {
+    color: #d8b61d;
+  }
+  .su-box-br {
+    display: none;
+  }
+  /* box-2  */
+  .su-box--2 input {
+    background-color: #d1d0d0;
+    margin: 0.1rem -0.4rem 0 0;
+    padding: 2rem;
+    height: 5.6rem;
+    width: 35rem;
+    font-size: 1.8rem;
+    border: 0;
+    border-radius: 0.6rem 0 0 0.6rem;
+    outline-color: var(--text-primary-color);
+    outline: 0;
+
+    display: inline-block;
+  }
+  .su-box--2 input:focus {
+    outline: 3px solid var(--text-primary-color);
+    outline-offset: -3px;
+  }
+  .su-box--2 button {
+    padding: 2rem;
+    background-color: var(--text-primary-color);
+    border: 0;
+    height: 5.7rem;
+    display: inline-block;
+    width: 11.5rem;
+    font-size: 1.7rem;
+    color: var(--white);
+    border-radius: 0 0.6rem 0.6rem 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .su-box--2 button:hover {
+    background-color: #08756e;
+  }
+  /* sign-up end */
 }
