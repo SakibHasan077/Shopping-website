@@ -577,3 +577,46 @@ footer {
 }
 
 /* footer end */
+/* media queries */
+@media screen and (max-width: 992px) {
+  header {
+    nav {
+      padding: 2rem;
+    }
+    nav ul li {
+      padding: 0 1.5rem;
+    }
+    /* nav  */
+  }
+  /* header end  */
+}
+@media screen and (max-width: 768px) {
+  header {
+    nav {
+      padding: 1rem 0.5rem;
+    }
+    nav ul {
+      padding-right: 1rem;
+    }
+    nav ul li {
+      padding: 0 1rem;
+    }
+    nav ul li a {
+      font-size: 1.4rem;
+    }
+    /* nav  */
+  }
+  /* header end  */
+}
+@media screen and (max-width: 500px) {
+  header {
+    nav ul {
+      display: none;
+    }
+    nav .icon-menu {
+      display: block;
+    }
+    /* nav  */
+  }
+  /* header end  */
+}
