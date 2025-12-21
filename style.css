@@ -510,3 +510,70 @@ main {
   }
   /* sign-up end */
 }
+/* footer  */
+
+footer {
+  width: 100%;
+  background-color: #ececec;
+}
+.foot-container {
+  display: grid;
+  grid-template-columns: 35% 15% 15% 35%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 7.5rem 0;
+}
+.foot-container h3 {
+  font-size: 1.872rem;
+  color: var(--black);
+}
+/* contact */
+.contact {
+  flex-basis: 38.8rem;
+}
+.contact address {
+  font-size: 1.6rem;
+  color: var(--footer-text-color);
+  margin: 1.5rem 0 2rem;
+}
+/* about & account */
+.about {
+  flex-basis: 20rem;
+}
+.account {
+  flex-basis: 20rem;
+}
+.combination-box-2-3 a {
+  display: block;
+  text-decoration: none;
+  color: var(--footer-text-color);
+  font-size: 1.6rem;
+  padding: 0.8rem 0;
+}
+.text-hover:hover {
+  color: var(--text-primary-color);
+}
+/* install  */
+.install {
+  flex-basis: 38.8rem;
+}
+.install p span {
+  color: var(--footer-text-color);
+  font-size: 1.6rem;
+  margin: 1.5rem 0 2rem;
+  display: block;
+}
+.install .app-image {
+  display: flex;
+  gap: 0.5rem;
+}
+.install .app-image img {
+  border: 1px solid var(--text-primary-color);
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+.f-hr {
+  display: none;
+}
+
+/* footer end */
