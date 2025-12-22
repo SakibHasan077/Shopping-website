@@ -612,6 +612,22 @@ footer {
     /* .shopping-cart  */
   }
   /* main end  */
+  .foot-container {
+    grid-template-columns: 70% 30%;
+    gap: 4rem;
+    width: 70%;
+  }
+
+  .contact {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid lightgray;
+  }
+  .about {
+    border-bottom: 2px solid lightgray;
+  }
+  .install {
+    grid-area: 2/1/3/2;
+  }
 }
 @media screen and (max-width: 992px) {
   header {
@@ -698,6 +714,9 @@ footer {
     /* .shopping-cart  */
   }
   /* main end */
+  .foot-container {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 768px) {
   header {
@@ -823,6 +842,18 @@ footer {
     }
   }
   /* main end  */
+  .foot-container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 70%;
+  }
+  .account {
+    border-bottom: 2px solid lightgray;
+  }
+  .install {
+    border-bottom: 2px solid lightgray;
+    grid-area: 4/1/5/2;
+    padding-bottom: 3rem;
+  }
 }
 @media screen and (max-width: 500px) {
   header {
@@ -925,4 +956,11 @@ footer {
     }
   }
   /* main end  */
+  .foot-container {
+    width: 85%;
+  }
+  .app-image {
+    flex-direction: column;
+    width: 70%;
+  }
 }
