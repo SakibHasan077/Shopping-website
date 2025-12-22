@@ -600,6 +600,16 @@ footer {
       width: 100%;
     }
     /* .shopping-cart  */
+    .sign-up--container {
+      padding: 0 7rem;
+    }
+    .su-box-br {
+      display: block;
+    }
+    .su-box--2 input {
+      width: 32rem;
+    }
+    /* .shopping-cart  */
   }
   /* main end  */
 }
@@ -662,6 +672,30 @@ footer {
       font-size: 3.5rem;
     }
     /* .shopping-cart */
+    .sign-up--container {
+      padding: 0 5rem;
+    }
+    .su-box--1 h2 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    .su-box--1 p {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    .su-box--2 input {
+      width: 25rem;
+      padding: 1.5rem;
+      font-size: 1.6rem;
+      height: 5rem;
+    }
+    .su-box--2 button {
+      width: 10rem;
+      font-size: 1.6rem;
+      padding: 1.5rem;
+      height: 5rem;
+    }
+    /* .shopping-cart  */
   }
   /* main end */
 }
@@ -757,6 +791,36 @@ footer {
       flex-basis: 100%;
     }
     /* .shopping-cart */
+    .sign-up {
+      height: 25rem;
+    }
+    .sign-up--container {
+      flex-direction: column;
+      justify-content: center;
+      gap: 3rem;
+      padding: 0 3rem;
+    }
+    .su-box--1 h2 {
+      font-size: 3rem;
+    }
+    .su-box--1 p {
+      font-size: 1.7rem;
+    }
+    .su-box-br {
+      display: none;
+    }
+    .su-box--2 input {
+      width: 30rem;
+      padding: 2rem;
+      font-size: 1.8rem;
+      height: 5.5rem;
+    }
+    .su-box--2 button {
+      width: 12rem;
+      font-size: 1.8rem;
+      padding: 2rem;
+      height: 5.5rem;
+    }
   }
   /* main end  */
 }
@@ -841,6 +905,24 @@ footer {
       width: 100%;
     }
     /* .shopping-cart */
+    .su-box--1 h2 {
+      font-size: 2.5rem;
+    }
+    .su-box--1 p {
+      font-size: 1.3rem;
+    }
+    .su-box--2 input {
+      width: 20rem;
+      padding: 1.5rem;
+      font-size: 1.3rem;
+      height: 4rem;
+    }
+    .su-box--2 button {
+      width: 9rem;
+      font-size: 1.4rem;
+      padding: 1.5rem;
+      height: 4rem;
+    }
   }
   /* main end  */
 }
