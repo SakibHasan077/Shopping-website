@@ -493,7 +493,9 @@ main {
     outline-offset: -3px;
   }
   .su-box--2 button {
-    padding: 2rem;
+    padding: 0rem;
+    padding-bottom: 0.1rem;
+    border: 1px solid var(--text-primary-color);
     background-color: var(--text-primary-color);
     border: 0;
     height: 5.7rem;
@@ -837,7 +839,7 @@ footer {
     .su-box--2 button {
       width: 12rem;
       font-size: 1.8rem;
-      padding: 2rem;
+      padding: 0rem;
       height: 5.5rem;
     }
   }
@@ -951,8 +953,10 @@ footer {
     .su-box--2 button {
       width: 9rem;
       font-size: 1.4rem;
-      padding: 1.5rem;
+      padding: 0rem;
       height: 4rem;
+      padding-bottom: 0.1rem;
+      border: 1px solid var(--text-primary-color);
     }
   }
   /* main end  */
